@@ -41,7 +41,7 @@ class OnboardingConversation extends Conversation
             // Save result
             $this->query = $answer->getText();
 
-            $this->say('Your query has been forwarded, we will contact you soon.');
+            $this->say('The virtual open day event consists of live talks, virtual campus tour and many other events.');
         });
     }
 
